@@ -1,0 +1,76 @@
+.form
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://www.bhmpics.com/downloads/background-4k-hd-Wallpapers/56.1320272.jpg);
+    background-size:cover;
+}
+.signup{
+    width: 300px;
+    padding: 20px;
+    border: 2px solid rgb(172, 166, 181);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(247, 247, 231);
+    background-color: rgba(252, 253, 254, 0.493);
+}
+.signup h1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.signup label{
+    display:block;
+    margin-bottom: 8px;
+    font-size: 18px;
+} 
+.signup input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.but Button:hover{
+    background-color:rgb(5, 173, 5);
+    touch-action:double-tap-zoom;
+}
+  .login_link a {
+    color: blue;
+    text-decoration: none;
+  }
+  .login_link a:hover {
+    text-decoration: underline;
+  }
+  .message {
+    color: red;
+    margin-top: 10px;
+}
+.password-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.password-input-container input {
+    flex: 1;
+    padding-right: 30px;
+}
+.toggle-password {
+    position: absolute;
+    margin-top: -16px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2em;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
