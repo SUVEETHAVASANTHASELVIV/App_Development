@@ -1,0 +1,118 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.netsuite.com%2Fportal%2Fresource%2Farticles%2Ferp%2Flogistics.shtml&psig=AOvVaw04TOt3EhBQpsKk3guuamkq&ust=1722069727825000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDYmoWoxIcDFQAAAAAdAAAAABAE);
+    background-size: cover;
+}
+.login {
+    width: 300px;
+    padding: 30px;
+    border: 2px solid rgb(172, 166, 181);
+    border-radius: 8px;
+    background-color: rgba(255, 251, 246, 0.612);
+    box-shadow: 0 0 20px rgb(247, 247, 231);
+}
+.login h1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.login label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.login input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.password-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.password-input-container input {
+    flex: 1;
+    padding-right: 30px;
+}
+.toggle-password {
+    position: absolute;
+    margin-top: -16px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2em;
+}
+.but Button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.but Button:hover {
+    background-color: rgb(5, 173, 5);
+    touch-action: double-tap-zoom;
+}
+.signup-link a {
+    color: blue;
+    text-decoration: none;
+}
+.signup-link a:hover {
+    text-decoration: underline;
+}
+.message {
+    color: red;
+    margin-top: 10px;
+}
+.forps {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -30px; /* Adjust this value as needed */
+}
+.forps a {
+    color: blue;
+    text-decoration: none;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    .login {
+        width: 80%;
+        padding: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .login {
+        width: 90%;
+        padding: 10px;
+    }
+    .login h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    .login label {
+        font-size: 16px;
+    }
+    .login input {
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+    .but Button {
+        font-size: 1em;
+    }
+}
